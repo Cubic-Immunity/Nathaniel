@@ -59,11 +59,11 @@ I fixed this by moving it into the function, and not inside return.
 # print(step3)
 
 # --- Nested Lists ---
-numbers = [
-[1, 2, 3],
-[4, 5, 6],
-[7, 8, 9]
-]
+# numbers = [
+# [1, 2, 3],
+# [4, 5, 6],
+# [7, 8, 9]
+# ]
 # print(numbers[2])
 # print(numbers[1][1])
 # numbers.append([10, 11, 12])
@@ -74,7 +74,7 @@ def sum_nested(lst):
     for row in lst:
         total += sum(row)
     return total
-print(sum_nested(numbers))
+# print(sum_nested(numbers))
 
 # --- Create a 5x5 List ----
 def create_5x5():

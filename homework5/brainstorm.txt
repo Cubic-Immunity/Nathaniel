@@ -1,0 +1,31 @@
+# File: brainstorm.txt
+
+1). 5 Topics
+    a). Simulating a Neutron Star Accreting from a Companion Star
+    b). Mapping Galactic Dust Using RR Lyrae Stars
+    c). Creating Hertzsprung-Russell (HR) Diagrams to Determine Cluster Age
+    d). Modeling a Planetary Transit Light Curve
+    e). Visualizing Gravitational Lensing of a Background Galaxy
+
+2). Tools/Resoruces for the topics (ordered as above)
+    a). NASA's HEASARC and Chandra data archives for reference imagery and physical parameters,
+	and Astropy.
+    b). Gaia DR3 catalog for RR Lyrae positions and photometry
+    c). Gaia DR3 catalog for photometry and MIST/PARSEC isochrones for model comparison
+    d). Lightkurve Python library and Astroquery for TESS data
+    e). lenstronomy Python package for lens modeling
+
+3). Using python skills for a single project
+    a). I would like to consider the first one involving simulating a neutron star
+	accreting from a companion star. I could use:
+	    - Loops/conditionals: iterate through time steps of the accretion simulation,
+          applying conditional triggers when critical mass is reached.
+        - Functions: modularize calculations for organizationsal/reusability reasons.
+        - Lists/dictionaries: store simulation data at each frame for later plotting.
+        - Version Control (git): track incremental improvements in the data analysis code.
+
+4). Dream vs Simpler Project Ideas
+    a). Dream: a full animation of a binary system with a simulated particle accretion flow,
+	    luminosity curve, and explosion sequence synchronized to physics-based data.
+	    Simpler: a Python script that numerically models mass transfer over time and plots
+	    luminosity vs. time to show when an X-ray burst would occur.
